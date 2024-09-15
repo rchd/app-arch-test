@@ -70,7 +70,7 @@
         <mxCell id="Ar2I6kyapb9o5fW3UJyG-18" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Domains.svg;" vertex="1" parent="1">
           <mxGeometry x="738" y="242.5" width="68" height="55.00000000000001" as="geometry" />
         </mxCell>
-        <mxCell id="81i1dUO_mtLAsaVfOT57-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+        <mxCell id="81i1dUO_mtLAsaVfOT57-1" value="router故障转移用" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
           <mxGeometry x="388" y="66" width="48" height="64" as="geometry" />
         </mxCell>
         <mxCell id="81i1dUO_mtLAsaVfOT57-2" value="监控程序&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
@@ -110,6 +110,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="430" as="sourcePoint" />
             <mxPoint x="420" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oi42S8Nz0SJRRiCIxCUv-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.162;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ar2I6kyapb9o5fW3UJyG-7" target="81i1dUO_mtLAsaVfOT57-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="400" as="sourcePoint" />
+            <mxPoint x="420" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
